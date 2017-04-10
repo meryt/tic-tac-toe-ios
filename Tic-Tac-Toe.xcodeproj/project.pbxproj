@@ -12,6 +12,9 @@
 		BAA4E7811E27C000004CC1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA4E77F1E27C000004CC1B6 /* Main.storyboard */; };
 		BAA4E7831E27C000004CC1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA4E7821E27C000004CC1B6 /* Assets.xcassets */; };
 		BAA4E7861E27C000004CC1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA4E7841E27C000004CC1B6 /* LaunchScreen.storyboard */; };
+		BAA4E7901E281044004CC1B6 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA4E78D1E281044004CC1B6 /* board.png */; };
+		BAA4E7911E281044004CC1B6 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA4E78E1E281044004CC1B6 /* cross.png */; };
+		BAA4E7921E281044004CC1B6 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA4E78F1E281044004CC1B6 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BAA4E7821E27C000004CC1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAA4E7851E27C000004CC1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAA4E7871E27C000004CC1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA4E78D1E281044004CC1B6 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		BAA4E78E1E281044004CC1B6 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		BAA4E78F1E281044004CC1B6 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				BAA4E77B1E27C000004CC1B6 /* AppDelegate.swift */,
 				BAA4E77D1E27C000004CC1B6 /* ViewController.swift */,
+				BAA4E78D1E281044004CC1B6 /* board.png */,
+				BAA4E78E1E281044004CC1B6 /* cross.png */,
+				BAA4E78F1E281044004CC1B6 /* nought.png */,
 				BAA4E77F1E27C000004CC1B6 /* Main.storyboard */,
 				BAA4E7821E27C000004CC1B6 /* Assets.xcassets */,
 				BAA4E7841E27C000004CC1B6 /* LaunchScreen.storyboard */,
@@ -90,6 +99,10 @@
 		BAA4E7701E27C000004CC1B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					Button_0_0,
+				);
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Jennifer van Hoof";
@@ -123,6 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA4E7911E281044004CC1B6 /* cross.png in Resources */,
+				BAA4E7901E281044004CC1B6 /* board.png in Resources */,
+				BAA4E7921E281044004CC1B6 /* nought.png in Resources */,
 				BAA4E7861E27C000004CC1B6 /* LaunchScreen.storyboard in Resources */,
 				BAA4E7831E27C000004CC1B6 /* Assets.xcassets in Resources */,
 				BAA4E7811E27C000004CC1B6 /* Main.storyboard in Resources */,
